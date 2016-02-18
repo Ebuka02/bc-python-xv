@@ -7,9 +7,9 @@ class TwoSumTestSuite(unittest.TestCase):
 		self.assertEqual(res,[2,3])
 
 
-	def test_list_range_14(self):
-		res= two_sum([2,5,1,7,10,4], 14)
-		self.assertEqual(res,[4,5])
+	def test_list_range_15(self):
+		res= two_sum([2,5,1,7,10,4], 15)
+		self.assertEqual(res,[1,4])
 
 
 	def test_list_range_6(self):
