@@ -1,14 +1,14 @@
 def odd_numbers(low,high):
-	if type(low)== int and type(high)== int and high>low:
-		num= range(low,high)
-		myList=[]
+	if type(low) == int and type(high) == int and low < high:
+		num = range(low, high)
+		myList = []
 		for i in num:
-			if i%2==1:
+			if i%2 == 1:
 				myList.append(i)
-		    return myList
+		return myList
 
-		else:
-			return "Even"
+	else:
+		return "Even"
 
-print odd_numbers(1,100)
+print (odd_numbers (1,100)) 
 
