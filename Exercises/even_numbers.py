@@ -1,14 +1,15 @@
-def odd_numbers(low,high):
-	if type(low)== int and type(high)== int and high>low:
-		num= range(low,high)
-		myList=[]
+def even_numbers(low, high):
+
+	if type(low) == int and type(high) == int and low < high:
+		num = range(low,high)
+		myList = []
 		for i in num:
-			if i%2==0:
+			if i%2 == 0:
 				myList.append(i)
-		    return myList
+		return myList
 
-		else:
-			return "odd"
+	else:
+		return "odd"
 
-print odd_numbers(1,100)
+print (even_numbers(1, 100))
 
